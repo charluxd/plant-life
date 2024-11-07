@@ -42,8 +42,10 @@ nav a {
 main {
   position: relative;
   z-index: 1;
-  background-color: #000;
   min-height: 100vh;
+  transition: transform 0.35s;
+}
 
+main.open {
   transform: translate(240px, 0);
 }
